@@ -76,7 +76,7 @@ if [[ "$1" == "help" ]]; then
 	echo
 	echo "Usage:"
 	echo
-	echo " BootKit [command]"
+	echo " Gate [command]"
 	echo
 	echo "Commands:"
 	echo " setup          Setup EDK2 repository"
