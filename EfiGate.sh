@@ -68,7 +68,8 @@ if [[ "$1" == "boot" ]]; then
 		-drive file="$drive_img_filename",format=raw,if=virtio \
 		-m 2G \
 		-bios "$qemu_bios_filename" \
-		-netdev user,id=net0 -device virtio-net-pci,netdev=net0
+		-netdev user,id=net0 \
+		-device virtio-net-pci,netdev=net0
 
 fi
 
