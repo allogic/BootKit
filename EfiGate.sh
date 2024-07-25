@@ -83,7 +83,7 @@ if [[ "$1" == "help" ]]; then
 	echo " mkdrive        Make a hard drive image"
 	echo " mount          Mount the hard drive image"
 	echo " umount         Unmount the hard drive image"
-	echo " update         Update BIOS and loader EFI file"
+	echo " update         Update BIOS and BOOTX64.EFI file"
 	echo " boot           Boot QEMU"
 	echo " help           Display this help message"
 	echo
